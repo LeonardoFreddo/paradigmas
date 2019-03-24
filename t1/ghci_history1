@@ -1,0 +1,100 @@
+codificaCL "Rio Grande do Sul"
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+func ["palavras","paralelas","pedal","paralelepipedo"]
+func ["lalalalala", "lala", "lalalalalalala"]
+func ["lalalalala", "lala"]
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+betterEncodeName "Badtz Maru"
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+encodeName "Leonardo Freddo"
+encodeName "Anderson Silva"
+:l t1.hs
+encodeName "Anderson Silva"
+:l t1.hs
+userName "Leonardo Freddo"
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+:l t1.hs
+lastName "Leonardo Freddo"
+:l t1.hs
+lastName "Leonardo Freddo"
+:l t1.hs
+isInt "2134234"
+isInt "2134234a"
+isInt "2134234"
+:l t1.hs
+length(filter (\c -> (c /= '0')&&(c /= '1')&&(c /= '2')&&(c /= '3')&&(c /= '4')&&(c /= '5')&&(c /= '6')&&(c /= '7')&&(c /= '8')&&(c /= '9')) "aaaa")
+length(filter (\c -> (c /= '0')&&(c /= '1')&&(c /= '2')&&(c /= '3')&&(c /= '4')&&(c /= '5')&&(c /= '6')&&(c /= '7')&&(c /= '8')&&(c /= '9')) "123")
+length(filter (\c -> (c /= '0')&&(c /= '1')&&(c /= '2')&&(c /= '3')&&(c /= '4')&&(c /= '5')&&(c /= '6')&&(c /= '7')&&(c /= '8')&&(c /= '9')) xs)
+length(filter (\c -> (c /= '0')&&(c /= '1')&&(c /= '2')&&(c /= '3')&&(c /= '4')&&(c /= '5')&&(c /= '6')&&(c /= '7')&&(c /= '8')&&(c /= '9')) xs)
+isInt "2134234
+isInt "2134234"
+:l t1.hs
+length(filter (\n -> (n == '0')&&(n == '1')&&(n == '2')&&(n == '3')&&(n == '4')&&(n == '5')&&(n == '6')&&(n == '7')&&(n == '8')&&(n == '9')) "fadifjsdiofjsdiofs")
+length(filter (\n -> (n == '0')&&(n == '1')&&(n == '2')&&(n == '3')&&(n == '4')&&(n == '5')&&(n == '6')&&(n == '7')&&(n == '8')&&(n == '9')) "23423423423")
+length(filter (\n -> (n == '0')&&(n == '1')&&(n == '2')&&(n == '3')&&(n == '4')&&(n == '5')&&(n == '6')&&(n == '7')&&(n == '8')&&(n == '9')) "aaa")
+length(filter (\n -> (n == '0')&&(n == '1')&&(n == '2')&&(n == '3')&&(n == '4')&&(n == '5')&&(n == '6')&&(n == '7')&&(n == '8')&&(n == '9')) "aaa")
+length(filter (\n -> (n == '0')&&(n == '1')&&(n == '2')&&(n == '3')&&(n == '4')&&(n == '5')&&(n == '6')&&(n == '7')&&(n == '8')&&(n == '9')) "123")
+isInt "2134234"
+isInt ("2134234")
+:l t1.hs
+isInt ("2134234")
+isInt "2134234"
+isInt ("2134234")
+:l t1.hs
+isInt ("2134234")
+:l t1.hs
+:l t1.hs
+firstName "Jon Bon Jovi"
+firstName "Jon Bon Jovi""
+:l t1.hs
+:l t1.hs
+firstName "Jon Bon Jovi""
+:l t1.hs
+:l t1.hs
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+codifica "rio grande do sul"
+:l t1
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+semVogais "Leonardo"
+:l t1
+semVogais "Leonardo"
+:l t1
+:l t1
+semVogais "Leonardo"
