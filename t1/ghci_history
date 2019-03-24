@@ -1,0 +1,56 @@
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+codifica "rio grande do sul"
+:l t1
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+semVogaisSL "Leonardo"
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+:l t1
+semVogais "Leonardo"
+:l t1
+semVogais "Leonardo"
+:l t1
+:l t1
+semVogais "Leonardo"
+:l t1
+semVogais "Leonardo"
+:l t1
+htmlListItemsSL ["abra", "ca", "dabra"]
+htmlListItemsSL ["abra", "ca", "dabra"]
+htmlListItems ["abra", "ca", "dabra"]
+:l t1
+:l t1
+addComma ["lala", "la"]
+:l t1
+addComma ["lala", "la"]
+:l t1
+isVowel 'A'
+:l t1
+isVowel 'A'
+isVowel 'a'
+:l t1
+isVowel 'a'
+isVowel a
+:l t1
+isVowel a
+:l t1
+isVowel a
+:l t1
+
