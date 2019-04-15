@@ -1,0 +1,100 @@
+genCirclesCase3 2
+genCirclesCase3 1
+:l t2.hs 
+genCirclesCase3 2
+genCirclesCase3 1
+genCirclesCase3 1
+genCirclesCase3 2
+:l t2.hs 
+genCirclesCase3 2
+genCirclesCase3 1
+genCirclesCase3 2
+genCirclesCase3 3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCirclesCase3 3
+genCirclesCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+genCase3
+:l t2.hs 
+genCirclesCase3 2
+:l t2.hs 
+:l t2.hs 
+genCirclesCase3 1
+:l t2.hs 
+genCirclesCase3 1
+:l t2.hs 
+genCirclesCase3 1
+:l t2.hs 
+genCirclesCase3 1
+genCirclesCase3 1
+:l t2.hs 
+genCirclesCase3 1
+genCirclesCase3 2
+genCirclesCase3
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+genCase3
+:l t2.hs 
+:l t2.hs 
+genCase3
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+:l t2.hs 
+genCase2 
+:l t2.hs 
+take 10 $ cycle[(0,0,0)]
+a
+a = printf "%s" "lalalaa"
+a
+a = printf "lalala"
+:l t2.hs 
+:t printf
+import Text.Printf
+import Data.Printf
+:t Data.Printf
+:l t2.hs 
+printf "%s" "alalala\n"
+printf "%s" "alalala"
+genCase2 
