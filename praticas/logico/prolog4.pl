@@ -71,21 +71,12 @@ zipmult([H|T],[H1|T1],[H2|T2]) :-
   zipmult(T,T1,T2).
 
 
-potenciasaux([H|T],[H1|T1]) :-
-
-
 potencias(0,[]).
-potencias(N,[H|T]) :-
-  N > 0,
+potencias(N,L1) :-
+  L1 = [H|T],
   N1 is N-1,
   H is 2**N1,
   potencias(N1,T).
-
-potencias(N,L1) :-
-  N == 0,
-  reverse(L1,L).
-
-
 
 
 
