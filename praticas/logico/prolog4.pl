@@ -59,8 +59,33 @@ nRandom(N,[H|T]) :-
   N1 is N-1,
   nRandom(N1,T).
 
-pot(0,[]).
+potN0(0,[1]).
 potN0(N,[H|T]) :-
-  H is 2^N,
+  H is 2**N,
   N1 is N-1,
   potN0(N1,T).
+
+zipmult([],[],[]).
+zipmult([H|T],[H1|T1],[H2|T2]) :-
+  H2 is H*H1,
+  zipmult(T,T1,T2).
+
+
+potenciasaux([H|T],[H1|T1]) :-
+
+
+potencias(0,[]).
+potencias(N,[H|T]) :-
+  N > 0,
+  N1 is N-1,
+  H is 2**N1,
+  potencias(N1,T).
+
+potencias(N,L1) :-
+  N == 0,
+  reverse(L1,L).
+
+
+
+
+
