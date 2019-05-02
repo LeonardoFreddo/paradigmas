@@ -1,5 +1,5 @@
 % Ex1
-impar(X) :-
+odd(X) :-
   A is mod(X,2),
   A > 0.
 
