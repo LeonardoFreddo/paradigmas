@@ -10,8 +10,6 @@ insano(adriano).
 insano(maria).
 
 % onde pessoa X estava no dia Y
-estava(X,Y,Z).
-
 estava(pedro,segunda,santamaria).
 estava(pedro,terca,santamaria).
 estava(pedro,quarta,portoalegre).
@@ -61,30 +59,58 @@ estava(maria,segunda,apartamento).
 estava(maria,sexta,apartamento).
 
 
+
+% relacoes atuais
+relacao(anita,bernardo).
+% relacoes passadas
+relacaoPast(bernado,caren).
+relacaoPast(anita,pedro).
+relacaoPast(pedro,alice).
+relacaoPast(alice,henrique).
+relacaoPast(henrique,maria).
+relacaoPast(maria,adriano).
+relacaoPast(adriano,caren).
+
+
 % pode ter roubado a arma
 arma(X) :-
-    estava(X,quinta,portoalegre),
-    estava(X,quinta,apartamento),
-    estava(X,quarta,apartamento).
+    estava(X,quinta,portoalegre)
+    ;estava(X,quinta,apartamento)
+    ;estava(X,quarta,apartamento).
 
 % pode ter roubado a chave
 chave(X) :-
-    estava(X,quarta,santamaria),
-    estava(X,terca,portoalegre).
+    estava(X,segunda,santamaria)
+    ;estava(X,terca,portoalegre).
 
+chave(bia).
 % estava no apartamento na hora do crime
-apartamento(X,Y)
+apartamento(X) :-
+    estava(X,quinta,apartamento)
+    ;estava(X,sexta,apartamento).
 
 
-acesso(X) :- arma(X).
-acesso(X) :- chave(X).
-acesso(X) :- apartamento(X).
+% motivos
+ciumes(X) :-
+    vitima(Y),
+    relacao(Y,Z),
+    relacao(Z,X)
+    ;relacao(X,Z).
 
+dinheiro(X) :- pobre(X).
+
+
+acesso(X) :-
+    arma(X),
+    chave(X),
+    apartamento(X).
 
 
 % x tem motivo?
 motivo(X) :-
-    pobre(X),
-    
+    ciumes(X)
+    ;insano(X)
+    ;dinheiro(X).
+
 
 assassino(X) :- motivo(X), acesso(X).
