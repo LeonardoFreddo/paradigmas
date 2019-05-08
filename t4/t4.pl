@@ -71,7 +71,6 @@ relacaoPast(henrique,maria).
 relacaoPast(maria,adriano).
 relacaoPast(adriano,caren).
 
-
 % pode ter roubado a arma
 arma(X) :-
     estava(X,quinta,portoalegre)
@@ -86,16 +85,15 @@ chave(X) :-
 chave(bia).
 % estava no apartamento na hora do crime
 apartamento(X) :-
-    estava(X,quinta,apartamento)
-    ;estava(X,sexta,apartamento).
-
+    estava(X,quinta,apartamento),
+    estava(X,sexta,apartamento).
 
 % motivos
 ciumes(X) :-
-    vitima(Y),
-    relacao(Y,Z),
-    relacao(Z,X)
-    ;relacao(X,Z).
+    relacao(anita,Z),
+    relacaoPast(Z,X)
+    ;relacaoPast(X,Z).
+
 
 dinheiro(X) :- pobre(X).
 
@@ -105,12 +103,10 @@ acesso(X) :-
     chave(X),
     apartamento(X).
 
-
 % x tem motivo?
 motivo(X) :-
     ciumes(X)
     ;insano(X)
     ;dinheiro(X).
-
 
 assassino(X) :- motivo(X), acesso(X).
