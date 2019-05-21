@@ -9,6 +9,9 @@ public class Data {
 
     public void setData(int dia, int mes, int ano){
         int diasmes[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+        if(this.ehBissexto()) diasmes[1] = 29;
+
         if (mes > 0 && mes < 13){
             this.mes = mes;
 
