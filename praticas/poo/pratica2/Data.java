@@ -1,11 +1,11 @@
 package pratica2;
 
 public class Data {
-    private int dia, mes, ano;
+    protected int dia, mes, ano;
 
-    public Data(int dia, int mes, int ano) {
-        setData(dia,mes,ano);
-    }
+    //public Data(int dia, int mes, int ano) {
+    //    setData(dia,mes,ano);
+    //}
 
     public void setData(int dia, int mes, int ano){
         int diasmes[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

@@ -1,16 +1,17 @@
 package pratica2;
 
 public class Pessoa {
-    Data dataNascimento;
-    String nome;
-    int cpf;
-    String sexo;
+    //protected Data dataNascimento;
+    protected String nome;
+    protected int cpf;
+    //protected String sexo;
+    
 
-    public Pessoa(Data dataNascimento, String nome, int cpf, String sexo) {
-        this.dataNascimento = dataNascimento;
+    public Pessoa(String nome, int cpf) {
+        //this.dataNascimento = dataNascimento;
         this.nome = nome;
         this.cpf = cpf;
-        this.sexo = sexo;
+        //this.sexo = sexo;
     }
 
     public void setDataNascimento(Data dataNascimento) {
